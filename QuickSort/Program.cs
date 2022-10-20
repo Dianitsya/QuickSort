@@ -37,8 +37,8 @@ namespace QuickSort
             for (int i = 0; i < n; i++)
             {
                 Console.Write("<" + (i + 1) + ">");
-                string s = Console.ReadLine();
-                arr[i] = Int32.Parse(s);
+                string s1 = Console.ReadLine();
+                arr[i] = Int32.Parse(s1);
             }
         }
         static void Main(string[] args)
